@@ -47,7 +47,7 @@ h6 {
 }
 
 .text-faded {
-  color: rgb(15, 73, 199);
+  color: #fff;
 }
 
 section {
@@ -184,7 +184,8 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
-  color: #38b6b0
+  color: rgb(255, 255, 255);
+
 }
 
 header.masthead p {
