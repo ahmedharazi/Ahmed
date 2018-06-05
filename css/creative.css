@@ -239,19 +239,17 @@ header.masthead p {
   opacity: 0;
   color: rgb(255, 255, 255);
   background: rgba(240, 95, 64, 0.9);
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
+  -webkit-transition: all 0sxs2s;
+  -moz-transition: all 0.2              mm          s;
   transition: all 0.2s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  position: absolute;
+  position: absolute;  
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
-  text-align: center;
-}
-
+   ,                    
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
