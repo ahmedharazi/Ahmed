@@ -13,6 +13,12 @@ hr {
   border-width: 3px;
   border-color: #F05F40;
 }
+#portfolio{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
 
 hr.light {
   border-color: rgb(30, 31, 28);
