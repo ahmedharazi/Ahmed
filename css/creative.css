@@ -9,8 +9,8 @@ body {
 }
 
 hr {
-  max-width: 50px;
-  border-width: 3px;
+  max-width: 750px;
+  border-width: -1px;
   border-color: #F05F40;
 }
 #portfolio{
@@ -22,6 +22,11 @@ hr {
 
 hr.light {
   border-color: rgb(30, 31, 28);
+}
+.jumbotron-fluid{
+  height: 20px;
+  background-color: black;
+  margin-bottom: 0px;
 }
 
 a {
@@ -35,13 +40,17 @@ a:hover {
   color: #f05f40;
 }
 
-h1,
+/* h1, */
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+h1{
+  font-family: 'Kaushan Script', cursive;
+
 }
 
 .bg-primary {
@@ -181,6 +190,8 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /* margin-top: 60px; */
+  
 }
 
 header.masthead hr {
@@ -196,7 +207,7 @@ header.masthead h1 {
 
 header.masthead p {
   font-weight: 300;
-  color: #212529;
+  color: r#FFEAAA;
   font-weight: bolder
 }
 
@@ -250,12 +261,12 @@ header.masthead p {
   transition: all 0.2s;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+/* .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;  
   top: 50%;
   width: 100%;
-  transform: translateY(-50%);
-   ,                    
+  transform: translateY(-50%); */
+                                  
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
@@ -317,4 +328,72 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+
+.container1{
+  height: 850px;;
+  background-image: url("../img/alone-black-and-white-cool-wallpaper-764880.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* margin: -95px; */
+  
+
+
+
+}
+.p-0{
+  height: 750px;
+
+}
+
+#contact{
+  height: 800px;
+
+}
+
+.sr-contact{
+  height: 350px;
+  width: 350px;
+}
+.img-fluid{
+  height: 350px;
+  width: 350px;
+  margin-top: 10px;
+  margin: 10px;
+  transition: all 4s;
+
+}
+
+.hhh{
+  margin-bottom: 650px;
+  text-decoration-color: aqua;
+  margin: 0 auto;
+}
+
+#about{
+  margin: 0px;
+  padding: 010px;
+  border:31px solid #eee; 
+}
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+img{
+  
+  margin: 10px;
+  transition: all 4s;
+
+}
+img:hover{
+  transform: scale(1.1);
 }
