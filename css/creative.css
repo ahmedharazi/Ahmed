@@ -61,12 +61,14 @@ h1{
   background-color: #212529 !important;
 }
 
-.text-faded {
+.aboutMe {
+  margin-top: 350px;
   color: #fff;
 }
 
 section {
   padding: 8rem 0;
+
 }
 
 .section-heading {
@@ -369,16 +371,15 @@ header.masthead p {
 }
 
 .hhh{
-  margin-bottom: 650px;
-  text-decoration-color: aqua;
-  margin: 0 auto;
+  margin-bottom: 750px;
+  text-decoration-color: rgb(121, 133, 133);
+  /* margin: 0 auto; */
+}
+#btnAbout{
+  margin-top: 150px;
+
 }
 
-#about{
-  margin: 0px;
-  padding: 010px;
-  border:31px solid #eee; 
-}
 
 .container {
 
